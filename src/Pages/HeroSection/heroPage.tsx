@@ -2,7 +2,7 @@ import HeroImg from "../../../public/logo/hero image.png";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col md:flex-row w-full min-h-screen bg-[#111827] text-white">
+    <section className="flex flex-col md:flex-row w-full min-h-[40rem] bg-[#111827] text-white">
       
       {/* Left Side - Image */}
       <div className="w-full md:w-1/2 h-[400px] md:h-auto">

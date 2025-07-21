@@ -26,3 +26,12 @@
 .Space {
     font-family: "Space Grotesk", sans-serif;
 }
+
+:root {
+  --section-gap: 64px;
+}
+
+.section {
+  padding: 30px;
+}
+

@@ -1,4 +1,5 @@
 import Banner from "../component/Banner/banner"
+import Banner2 from "../component/Banner/banner2"
 import BestSellers from "../component/Best Sellers/bestSellers"
 import Category from "../component/ProductCategory/category"
 import BrandSection from "./HeroSection/Brands/BrandSection"
@@ -14,6 +15,7 @@ const HomePage = () => {
     <Category/>
     <Banner/>
     <BestSellers/>
+    <Banner2/>
     </>
   )
 }

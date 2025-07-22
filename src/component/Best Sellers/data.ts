@@ -1,14 +1,27 @@
-export const bestSellersData = [
+interface Product {
+  id: number;
+  title: string;
+  price: number;
+  image: string;
+  isHot: boolean;
+  discount?: number;
+  discountedPrice?: number;
+}
+
+
+export const bestSellersData: Product[] = [
     {
         id:1,
         title: "Freestule Crew Racer leather jacket",
         price: 595.00,
         image: "/public/Best Sellers/Paste image.svg",
         isHot: true,
+        discountedPrice: 476.00,
+        discount: 20,
     },
     {
         id:2,
-        title: "!996 Retro Nuptse Cashmere Jacket in Gray",
+        title: "1996 Retro Nuptse Cashmere Jacket in Gray",
         price: 149.99,
         image: "/public/Best Sellers/2.svg",
         isHot: true,

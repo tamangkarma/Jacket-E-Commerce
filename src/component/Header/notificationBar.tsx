@@ -1,4 +1,4 @@
-import Button from "../button";
+import ArrowButton from "../arrowButton";
 import copoun from "/logo/copoun.png";
 import { RxCross2 } from "react-icons/rx";
 
@@ -17,8 +17,8 @@ const NotificationBar = () => {
         </div>
 
         {/* Shop now */}
-        <div className="">
-          <Button name={"Shop Now"}  />
+        <div>
+          <ArrowButton className="" label="Shop Now"/>
         </div>
 
         <button  className="absolute right-2">

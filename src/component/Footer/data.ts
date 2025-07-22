@@ -41,15 +41,15 @@ interface FooterSocialDataType {
 export const FooterSocailData: FooterSocialDataType[] = [
     {
         id:1,
-        image: "/public/Social Media/instagram.svg",
+        image: "/Social Media/instagram.svg",
     },
     {
         id:2,
-        image: "/public/Social Media/facebook.svg",
+        image: "/Social Media/facebook.svg",
     },
     {
         id:3,
-        image: "/public/Social Media/youtube.svg",
+        image: "/Social Media/youtube.svg",
 
     },
     
@@ -87,26 +87,26 @@ interface FooterBottomDataType {
 export const FooterBottomData: FooterBottomDataType[] = [
     {
         id:1,
-        image: "/public/Payment/Visa.svg",
+        image: "/Payment/Visa.svg",
     },
     {
         id:2,
-        image: "/public/Payment/american Express.svg",
+        image: "/Payment/american Express.svg",
     },
     {
         id:3,
-        image: "/public/Payment/mastercard.svg",
+        image: "/Payment/mastercard.svg",
     },
     {
         id:4,
-        image: "/public/Payment/paypal.svg",
+        image: "/Payment/paypal.svg",
     },
     {
         id:5,
-        image: "/public/Payment/googlePay.svg",
+        image: "/Payment/googlePay.svg",
     },
     {
         id:6,
-        image: "/public/Payment/stripe.svg",
+        image: "/Payment/stripe.svg",
     }
 ]

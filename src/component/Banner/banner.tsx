@@ -15,7 +15,7 @@ const Banner = () => {
 
             <div className="absolute bottom-10 md:left-14 left-8">
               <h1 className="Poppins text-h5 text-white  mb-4">{value.title}</h1>
-              <ArrowButton />
+              <ArrowButton variant="primary"/>
             </div>
           </div>
         ))}

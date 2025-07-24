@@ -18,7 +18,7 @@ const NotificationBar = () => {
 
         {/* Shop now */}
         <div>
-          <ArrowButton className="" label="Shop Now"/>
+          <ArrowButton variant="primary" label="Shop Now"/>
         </div>
 
         <button  className="absolute right-2">

@@ -1,12 +1,5 @@
-interface Product {
-  id: number;
-  title: string;
-  price: number;
-  image: string;
-  isHot: boolean;
-  discount?: number;
-  discountedPrice?: number;
-}
+import type { Product } from "../../data/product";
+
 
 
 export const bestSellersData: Product[] = [

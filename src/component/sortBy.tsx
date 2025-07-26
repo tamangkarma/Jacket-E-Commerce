@@ -14,7 +14,7 @@ const SortBy = () => {
         </div>
         <button className="grid grid-cols-2 md:grid-cols-4">
           {ToolBarData.map((value, idx) => (
-            <div
+            <button
               key={idx}
               className={`border border-gray-200  p-[4px] ${
                 idx <= 1 ? "hidden sm:block" : ""
@@ -25,7 +25,7 @@ const SortBy = () => {
                 src={value.image}
                 alt=""
               />
-            </div>
+            </button>
           ))}
         </button>
       </section>

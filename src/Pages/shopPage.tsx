@@ -29,7 +29,7 @@ const ShopPage = () => {
         {/* Toolbar Component */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-20 ">
           <ToolBar />
-          <SortBy />
+          <SortBy/>
         </div>
         <Products/>
       </section>

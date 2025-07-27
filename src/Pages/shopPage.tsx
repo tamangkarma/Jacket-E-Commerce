@@ -24,6 +24,7 @@ const ShopPage = () => {
             <p className="text-lg md:text-text3 max-w-xl shadow-lg">
               Let's design the place you always imagined.
             </p>
+            <span>One click away</span>
           </div>
         </div>
         {/* Toolbar Component */}

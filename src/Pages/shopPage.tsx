@@ -25,6 +25,7 @@ const ShopPage = () => {
               Let's design the place you always imagined.
             </p>
             <span>One click away</span>
+            <h1>For the best Deal's</h1>
           </div>
         </div>
         {/* Toolbar Component */}

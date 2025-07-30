@@ -13,13 +13,9 @@ export const navData: navdata[] = [
         url: "/shop",
     },
     {
-        id:3,
-        title: "Product",
-        url: "/product",
-    },
-    {
         id:4,
         title: "Contact Us",
         url: "/contact us",
-    }
+    },
+    
 ]

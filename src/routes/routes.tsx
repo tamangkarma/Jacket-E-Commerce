@@ -2,8 +2,8 @@ import { createBrowserRouter } from "react-router";
 import { Mainlayout } from "../Layout/mainLayout";
 import HomePage from "../Pages/homePage";
 import ShopPage from "../Pages/shopPage";
-import ProductPage from "../Pages/productPage";
 import ContactPage from "../Pages/contactPage";
+import Account from "../component/Header/myAccount/account";
 
 export const router = createBrowserRouter([
   {
@@ -19,8 +19,8 @@ export const router = createBrowserRouter([
         element: <ShopPage />,
       },
       {
-        path: "/product",
-        element: <ProductPage />,
+        path: "/account",
+        element: <Account/>
       },
       {
         path: "/contact us",

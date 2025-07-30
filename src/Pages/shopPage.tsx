@@ -24,17 +24,14 @@ const ShopPage = () => {
             <p className="text-lg md:text-text3 max-w-xl shadow-lg">
               Let's design the place you always imagined.
             </p>
-            <span>One click away</span>
-            <h1>For the best Deal's</h1>
-            <h1>For the best Deal's</h1>
           </div>
         </div>
         {/* Toolbar Component */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-20 ">
           <ToolBar />
-          <SortBy/>
+          <SortBy />
         </div>
-        <Products/>
+        <Products />
       </section>
     </>
   );
